@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url("/gridbackground.svg");
+    background-size:cover;
+    display:grid;
+}
+
+.nav-button{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 2rem;
+}
+
+p:hover{
+    
+}
+
+#header{
+    background-color:rgb(43, 43, 43);
+    border-radius: 20px;
+    margin: .5rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height:50px;
+    width: auto;
+}
+
+#navlist{
+    display:flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: end;
+}
+
+#hero-title{
+    color:white;
+    font-size: 6rem;
+
+}
+
+#header-title{
+    color: white;
+    font-size: 4rem;
+}
+
+h1{
+    font-family:'MuseoModerno', sans-serif;
+}
+
+#hero{
+    margin-top: 250px;
+    margin-inline: 50px;
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+
+}
+
+#hero-container-right{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+
+#hero-container-left{
+    position: relative;
+    
+}
